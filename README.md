@@ -27,3 +27,4 @@ This project helps users record, manage, and analyze their daily expenses throug
 
 ## 📂 Project Structure
 adding dashboard feature to view the data in category wise
+trying to make it web app 
