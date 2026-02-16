@@ -1,30 +1,93 @@
-# 💰 Expense Tracker (Python)
+🚀 Features
+🔹 Core Features (CLI Version)
+➕ Add new expenses
 
-A simple and fully functional **Expense Tracker application** built using **Python and SQLite**.  
-This project helps users record, manage, and analyze their daily expenses through a **command-line interface (CLI)**.
+📄 View all expenses
 
----
+🔍 Filter expenses by category
 
-## 📌 Features
+📅 Filter expenses by month
 
-- ➕ Add new expenses  
-- 📄 View all expenses  
-- 🔍 Filter expenses by **category**  
-- 📅 Filter expenses by **month**  
-- 💰 View total spending  
-- 🗑 Delete an expense  
-- 💾 Persistent storage using SQLite database  
+💰 View total spending
 
----
+🗑 Delete an expense
 
-## 🛠 Tech Stack
+💾 Persistent storage using SQLite database
 
-- **Programming Language:** Python 3  
-- **Database:** SQLite (built-in)  
-- **Interface:** Command Line Interface (CLI)
+🔹 Dashboard Features (Web App Version)
+🔐 User Login & Registration System
 
----
+👤 User-specific expense tracking
 
-## 📂 Project Structure
-adding dashboard feature to view the data in category wise
-trying to make it web app 
+📊 Category-wise spending visualization
+
+📈 Monthly expense trend analysis
+
+💰 Total spending metrics
+
+📂 Interactive financial dashboard
+
+🗄 Secure data storage using SQLite
+
+🛠 Tech Stack
+Backend
+Python 3
+
+SQLite (Built-in lightweight database)
+
+Data Processing
+Pandas (Data analysis & aggregation)
+
+Visualization
+Matplotlib (CLI version)
+
+Plotly (Web dashboard interactive graphs)
+
+Web Framework
+Streamlit (Frontend + Backend for web app)
+
+expense-tracker/
+│
+├── app.py                # Streamlit Web Application
+├── cli_version.py        # CLI Version
+├── database.db           # SQLite Database (auto-generated)
+├── requirements.txt
+└── README.md
+
+📊 Dashboard Analytics
+The web dashboard includes:
+
+🥧 Category-wise Spending (Pie Chart)
+
+📈 Monthly Expense Trend (Line Chart)
+
+📌 Total Spending KPI
+
+👤 User-specific Financial Data
+
+🔒 Data Storage
+All user credentials and expense records are stored in a SQLite database.
+
+Each user can only view their own expenses.
+
+Future upgrade includes secure password hashing.
+
+🌍 Future Scope
+🔐 Implement encrypted password storage (bcrypt)
+
+📊 Budget limit tracking & alert system
+
+📈 AI-based spending prediction (Machine Learning integration)
+
+📱 Responsive mobile-friendly UI
+
+☁️ Cloud deployment (Streamlit Cloud / Render / AWS)
+
+📥 Export data as CSV / Excel
+
+💳 Expense categorization using NLP
+
+📊 Advanced analytics (Savings rate, anomaly detection)
+
+
+
