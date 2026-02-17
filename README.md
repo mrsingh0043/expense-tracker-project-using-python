@@ -68,7 +68,7 @@ The web dashboard includes:
 🔒 Data Storage
 All user credentials and expense records are stored in a SQLite database.
 
-Each user can only view their own expenses.
+Each user can only view their own expenses
 
 Future upgrade includes secure password hashing.
 
