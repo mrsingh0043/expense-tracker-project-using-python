@@ -88,6 +88,7 @@ Future upgrade includes secure password hashing.
 💳 Expense categorization using NLP
 
 📊 Advanced analytics (Savings rate, anomaly detection))
+will gonna add more graphs
 
 
 
