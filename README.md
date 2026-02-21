@@ -17,7 +17,7 @@
 🔹 Dashboard Features (Web App Version)
 🔐 User Login & Registration System
 
-👤 User-specific expense tracking
+👤 User-specific expense tracking.
 
 📊 Category-wise spending visualization
 
