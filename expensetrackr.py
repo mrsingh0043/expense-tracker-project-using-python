@@ -8,7 +8,7 @@ from datetime import datetime
 conn = sqlite3.connect("database.db", check_same_thread=False)
 c = conn.cursor()
 
-# Create tables
+# Create table
 c.execute('''
 CREATE TABLE IF NOT EXISTS users (
     username TEXT PRIMARY KEY,
@@ -122,3 +122,5 @@ if "user" in st.session_state:
         st.plotly_chart(fig2)
     else:
         st.info("No expenses added yet.")
+        
+
